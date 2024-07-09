@@ -6,74 +6,149 @@
 
 #banner{
     background-image: url(assets/Hero-bg.png);
-    position: absolute;
-    width: 1440px;
-    height: 652px;
-    left: 0;
-    right: 0;
-    top: 131px;
-    bottom: 4462px;
+    height: 450px;
 }
 #banner .banner-img{
-    margin-top: 26px;
+    margin-top: 18px;
     display: block;
 }
 #banner .banner-content{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-left: 221px;
-    padding-right: 221px;
+    padding-left: 152px;
+    padding-right: 152px;
 }
 
 #banner .moto{
-    position: static;
-    width: 998px;
-    height: 136px;
-    /* Auto layout */
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 0px;    
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
-    font-size: 38px;
+    font-size: 26px;
     font-weight: 800;
-    line-height: 68px;
+    line-height: 47px;
     letter-spacing: 0%;
     text-align: center;
-    margin-top: 32px;
+    margin-top: 22px;
 
 }
 #banner .description{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
-    font-size: 16px;
+    font-size: 11px;
     font-weight: 400;
-    line-height: 26px;
+    line-height: 18px;
     letter-spacing: 0%;
     text-align: center;
-    margin-top: 24px;
+    margin-top: 17px;
 }
 .btn{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 21px 24px 21px 24px;    
+    padding: 14px 17px 14px 17px;    
     background-color: rgb(13, 19, 33);
-    border-radius: 8px;
-    margin-top: 32px;
+    border-radius: 6px;
+    margin-top: 22px;
 }
 .btn-info{
 
     color: rgb(255, 255, 255);
     font-family: Azeret Mono;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 600;
-    line-height: 23px;
+    line-height: 16px;
     letter-spacing: 0%;
     text-align: center;
 
+}
+
+#info{
+    border: 48px solid rgba(13, 19, 33, 0.02);
+    border-radius: 11px;
+    margin-top: 51px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#info .que{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 17px ;
+}
+
+#info .ans{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 33px;    
+}
+
+#info .point{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#info .point1{
+    max-width: 585px;
+}
+
+#info .head{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+#info .mid{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 11px;
+}
+
+#info .btn2{
+    margin-top: 22px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.btn2-info{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.img-side img{
+    max-width: 100%;
+    height: auto;
+}
+
+#inspi{
+    margin-top: 62px;
 }
