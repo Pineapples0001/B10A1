@@ -16,7 +16,7 @@ body {
 #banner{
     background-image: url(assets/Hero-bg.png);
     height: 652px;
-    width: 1600px;
+    width: 1440px;
 }
 #banner .banner-img{
     margin-top: 26px;
@@ -26,7 +26,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: absolute;
     width: 1440px;
     height: 652px;
 }
@@ -51,6 +50,8 @@ body {
     letter-spacing: 0%;
     text-align: center;
     margin: 24px 0px;
+    margin-left: 294px;
+    margin-right: 294px;
 }
 .btn{
     display: flex;
