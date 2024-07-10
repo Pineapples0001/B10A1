@@ -78,6 +78,7 @@ body {
     line-height: 23px;
     letter-spacing: 0%;
     text-align: center;
+    border: none;
 }
 .btn button{
     border: none;
