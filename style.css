@@ -3,96 +3,123 @@
     margin: 0px;
     padding: 0px;
 }
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 #banner{
     background-image: url(assets/Hero-bg.png);
-    height: 450px;
+    height: 652px;
+    width: 1600px;
 }
 #banner .banner-img{
-    margin-top: 18px;
+    margin-top: 26px;
     display: block;
 }
 #banner .banner-content{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-left: 152px;
-    padding-right: 152px;
+    position: absolute;
+    width: 1440px;
+    height: 652px;
 }
 
 #banner .moto{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
-    font-size: 26px;
+    font-size: 48px;
     font-weight: 800;
-    line-height: 47px;
+    line-height: 68px;
     letter-spacing: 0%;
     text-align: center;
-    margin-top: 22px;
+    margin-top: 32px;
 
 }
 #banner .description{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
-    font-size: 11px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 18px;
+    line-height: 26px;
     letter-spacing: 0%;
     text-align: center;
-    margin-top: 17px;
+    margin: 24px 0px;
 }
 .btn{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 14px 17px 14px 17px;    
+    padding: 21px 24px 21px 24px;    
     background-color: rgb(13, 19, 33);
-    border-radius: 6px;
-    margin-top: 22px;
+    border-radius: 8px;
+    margin-top: 32px;
+}
+.btn :hover{
+    background-color: gray;
 }
 .btn-info{
-
+    text-decoration: none;
     color: rgb(255, 255, 255);
     font-family: Azeret Mono;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 600;
-    line-height: 16px;
+    line-height: 23px;
     letter-spacing: 0%;
     text-align: center;
+    text-decoration: none;
 
+}
+.btn-info a{
+text-decoration: none;
 }
 
 #info{
-    border: 48px solid rgba(13, 19, 33, 0.02);
-    border-radius: 11px;
-    margin-top: 51px;
-    padding: 20px;
+    margin-top: 74px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: center;
+    border: 80px solid rgba(13, 19, 33, 0.02);
+    border-radius: 16px;
+    padding: 80px;
+    height: 1395px;
+    width: 1140px;
+    box-sizing: border-box;
 }
-
+#info .contain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
 #info .que{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
-    font-size: 22px;
+    font-size: 32px;
     font-weight: 800;
-    line-height: 26px;
+    line-height: 37px;
     letter-spacing: 0%;
     text-align: center;
-    margin-bottom: 17px ;
+    margin-bottom: 24px ;
 }
 
 #info .ans{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
-    font-size: 11px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 18px;
+    line-height: 26px;
     letter-spacing: 0%;
     text-align: center;
-    margin-bottom: 33px;    
+    margin-bottom: 48px;    
 }
 
 #info .point{
@@ -102,7 +129,7 @@
 }
 
 #info .point1{
-    max-width: 585px;
+    max-width: 477px;
 }
 
 #info .head{
@@ -123,11 +150,11 @@
     line-height: 26px;
     letter-spacing: 0%;
     text-align: left;
-    margin-top: 11px;
+    margin-top: 16px;
 }
 
 #info .btn2{
-    margin-top: 22px;
+    margin-top: 32px;
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
@@ -150,7 +177,7 @@
 }
 
 #inspi{
-    margin-top: 62px;
+    margin-top: 88px;
 }
 
 #inspi .head{
@@ -164,7 +191,7 @@
 }
 
 #inspi .description{
-    margin-top: 17px;
+    margin-top: 24px;
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 16px;
@@ -172,16 +199,15 @@
     line-height: 26px;
     letter-spacing: 0%;
     text-align: center;
-    margin-bottom: 33px;
+    margin-bottom: 48px;
 }
 
 #inspi .video{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
-    margin-bottom: 104px;
+    margin-bottom: 181px;
 }
 #target{
     width: 100%;
@@ -198,7 +224,7 @@
     line-height: 37px;
     letter-spacing: 0%;
     text-align: center;
-    margin-bottom: 17px;
+    margin-bottom: 24px;
 }
 
 #target .description{
@@ -209,7 +235,7 @@
     line-height: 26px;
     letter-spacing: 0%;
     text-align: center;
-    margin-bottom: 33px;
+    margin-bottom: 48px;
 }
 #target .allskills{
     display: flex;
@@ -253,7 +279,8 @@
     margin-top: 6px;    
 }
 
-#target .link{
+#target .link a{
+    text-decoration: none;
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 16px;
@@ -278,12 +305,12 @@
 #next .next-title{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
-    font-size: 24px;
+    font-size: 32px;
     font-weight: 800;
-    line-height: 36px;
+    line-height: 37px;
     letter-spacing: 0%;
-    text-align: left;
-    margin-bottom: 10px;
+    text-align: center;
+    margin-bottom: 24px;
 }
 #next .next-des{
     color: rgb(13, 19, 33);
@@ -305,10 +332,12 @@
 #next .goal{
     display: flex;
     align-items: center;
+    width: 1140px;
     gap: 20px;
-    padding: 20px;
+    padding: 40px;
     border:1px solid rgba(13, 19, 33, 0.15);
     border-radius: 16px;
+
 }
 #next .head{
     color: rgb(13, 19, 33);
@@ -329,7 +358,7 @@
     text-align: left;
     margin-bottom: 10px;
 }
-#next .link{
+#next .link a{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 16px;
@@ -340,11 +369,15 @@
     text-decoration-line: underline;
 }
 #feedback{
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
     margin-top: 49px;
     margin-bottom: 100px;
     background: url(assets/handshake.jpg);
     background-size: cover;
-    height: 500px;
+    height: 314px;
+    width: 1140px;
 }
 
 #feedback .inputs{
@@ -374,7 +407,7 @@
     opacity: 0.7;
     margin-top: 16px;
 }
-#feedback .text{
+#feedback input[type="text"]{
     margin-top: 48px;
     position: relative;
     width: 548px;
@@ -385,11 +418,35 @@
     border-radius: 8px;
     background: rgb(255, 255, 255);
 }
+#feedback input[type="text"]::placeholder{
+    align-items: start;
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 19px 20px;
+}
 
+#feedback input[type="submit"]{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    width: 120px;
+    height: 58px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
 #foot{
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.03);
-    width: 1150px;
+    width: 1140px;
     height: 100px;
     display: flex;
     justify-content: space-between;
@@ -412,7 +469,7 @@
 
 .links1 ul {
     display: flex;
-    gap: 36px;
+    gap: 25px;
 }
 
 .links1 li{
